@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "age",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setAge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Learning_Concepts/01_state_variable.sol": "State"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Learning_Concepts/01_state_variable.sol": {
+			"keccak256": "0xaf423c1be5a72c5d14bda46e38a4a24256ed7d09a9452cce9f45fa5a3fadb7cd",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://3246b64b80bd74b4434616058c43172253313e8a25f54abd6a675cbbf92afd4d",
+				"dweb:/ipfs/QmPfy6xteHmThZGWhBF2mzHANZS6UUsEHYj8Vk8QhXBvPf"
+			]
+		}
+	},
+	"version": 1
+}
