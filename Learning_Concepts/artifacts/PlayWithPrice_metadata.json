@@ -6,19 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "int256",
-						"name": "new_count",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [],
-				"name": "count",
+				"name": "get_price",
 				"outputs": [
 					{
 						"internalType": "int256",
@@ -27,6 +16,39 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "incriment_price",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "price",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "new_price",
+						"type": "int256"
+					}
+				],
+				"name": "set_price",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -43,7 +65,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Learning_Concepts/04_constructor.sol": "State"
+			"Learning_Concepts/03_function.sol": "PlayWithPrice"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -57,12 +79,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Learning_Concepts/04_constructor.sol": {
-			"keccak256": "0xb03d2029cc5a649b691e0bb1d194714afb70e67c5472de7d6026d4d6e2349f85",
+		"Learning_Concepts/03_function.sol": {
+			"keccak256": "0x672d9e8aa1b5584a7e3bee1e7b7f90a6f633cc1e9b07e6c03bb01357b39d8cf4",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b9278a2b93b0876abe24d122f979525c6ee51b633233b787259455c64dca9514",
-				"dweb:/ipfs/Qmb1Tv4vaYuHEor7ijm7eULVHQekTJuhSFSo3cYqYEVHsu"
+				"bzz-raw://f1ea1028b4aa04a8301adc3e41459670b53c58fd572d26bb68a73c233dd90ea9",
+				"dweb:/ipfs/QmTaXAfHqekRSkP1wyaBdMX71Zf9dU6AgzHeW1W8jU7Ere"
 			]
 		}
 	},
