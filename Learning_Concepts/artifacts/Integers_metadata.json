@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Learning_Concepts/05_integers.sol": "Integers"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Learning_Concepts/05_integers.sol": {
+			"keccak256": "0x4c41c2eccd92ba254e406109fd4b6e1a3f5d90ce841a1a7d0b60684991a6fdd3",
+			"urls": [
+				"bzzr://b208b02ba6f0e18486a654b038e5f760447aba6a6357d24b3beeea893e20fe86"
+			]
+		}
+	},
+	"version": 1
+}
