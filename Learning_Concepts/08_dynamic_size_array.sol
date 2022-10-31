@@ -15,7 +15,7 @@ contract DynArr {
         return arr.length;
     }
 
-    function push(uint element) public {
+    function push(uint element) public  {
         arr.push(element);
     }
 

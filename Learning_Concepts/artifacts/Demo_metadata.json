@@ -8,25 +8,11 @@
 			{
 				"constant": true,
 				"inputs": [],
-				"name": "length",
+				"name": "b2",
 				"outputs": [
 					{
 						"name": "",
-						"type": "uint256"
-					}
-				],
-				"payable": false,
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"constant": true,
-				"inputs": [],
-				"name": "b",
-				"outputs": [
-					{
-						"name": "",
-						"type": "bytes"
+						"type": "bytes2"
 					}
 				],
 				"payable": false,
@@ -36,7 +22,7 @@
 			{
 				"constant": false,
 				"inputs": [],
-				"name": "push",
+				"name": "setter",
 				"outputs": [],
 				"payable": false,
 				"stateMutability": "nonpayable",
@@ -46,11 +32,11 @@
 				"constant": true,
 				"inputs": [
 					{
-						"name": "i",
+						"name": "index",
 						"type": "uint256"
 					}
 				],
-				"name": "get_element",
+				"name": "getter",
 				"outputs": [
 					{
 						"name": "",
@@ -62,12 +48,17 @@
 				"type": "function"
 			},
 			{
-				"constant": false,
+				"constant": true,
 				"inputs": [],
-				"name": "pop",
-				"outputs": [],
+				"name": "b3",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bytes3"
+					}
+				],
 				"payable": false,
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -80,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Learning_Concepts/10_bytes_array.sol": "Demo"
+			"Learning_Concepts/09_byte_array.sol": "Demo"
 		},
 		"evmVersion": "byzantium",
 		"libraries": {},
@@ -91,10 +82,10 @@
 		"remappings": []
 	},
 	"sources": {
-		"Learning_Concepts/10_bytes_array.sol": {
-			"keccak256": "0x3c964a61e3f59ebc6b908ec7da093e8b76b5e64e65461f9d02e0dd0bebda843f",
+		"Learning_Concepts/09_byte_array.sol": {
+			"keccak256": "0x2170521087d56336ffd1710965620a5c9436fed8822094a3a6859ed05cd8e39b",
 			"urls": [
-				"bzzr://f1701a43f246612f8906b56d1db2187c324797be022064a20be12656ce6ce6fa"
+				"bzzr://5dea979b3a717cb8816dde801aaa796205317157807a50ca70ca860d6a042ca0"
 			]
 		}
 	},
