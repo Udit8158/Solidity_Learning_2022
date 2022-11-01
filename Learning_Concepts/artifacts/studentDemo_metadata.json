@@ -106,11 +106,11 @@
 	},
 	"sources": {
 		"Learning_Concepts/14_structure.sol": {
-			"keccak256": "0x6086132145ea006f1dcbf711f04d9831df16c7ec5b26746d77af657371bd5fd1",
+			"keccak256": "0x6fbb307a8637801879967cca95c93b604a4e7d99e2b40bccdf17ab806af2f094",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://e78767fc738a0792a9c8238956b5f2b8ef3bd4ab275581b19283d4be90f23c9f",
-				"dweb:/ipfs/QmRSMS3MwGzYAc9Bx7ye8FBtFrTLtbQqTHv9HWNxeVXJNb"
+				"bzz-raw://527847b85cb9f1d6a993382696df94aeac5a3d509f7bfe0bd6969bdab13e953d",
+				"dweb:/ipfs/QmP4GLg9L9H55QokwQjFDpakuZoZ3jUuny8BZ82Q1KGZdt"
 			]
 		}
 	},

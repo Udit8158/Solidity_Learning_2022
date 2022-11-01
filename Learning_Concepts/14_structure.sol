@@ -30,10 +30,13 @@ contract studentDemo {
         // s1.name = _new_name;
         // s1.roll = _new_roll;
 
-        Student memory new_student = Student({
-            name: _new_name,
-            roll: _new_roll
-        });
+        // Student memory new_student = Student({
+        //     name: _new_name,
+        //     roll: _new_roll
+        // });
+
+        // Also can do like this
+        Student memory new_student = Student(_new_name,_new_roll);
 
         s1 = new_student;
     }

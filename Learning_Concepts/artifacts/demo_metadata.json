@@ -9,37 +9,47 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "id",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_id",
+						"name": "_role",
 						"type": "uint256"
 					},
 					{
 						"internalType": "string",
 						"name": "_name",
 						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_class",
+						"type": "uint256"
 					}
 				],
-				"name": "setter",
+				"name": "enroll_student",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "students_list",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "class",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -71,11 +81,11 @@
 	},
 	"sources": {
 		"Learning_Concepts/16_mapping.sol": {
-			"keccak256": "0x46028fe0e5cc172d5701a6072b1034bfe75641100474d50d14e38c8791b165cc",
+			"keccak256": "0xcf06a488c25892afbd2281fd70cd55e19643663abf093fd9ab0ba3e9f9ed5ced",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a7e8629a50806642181e452cbbcfd9485ac4a940721f247e1a0fda113c8e4571",
-				"dweb:/ipfs/QmeK1jzkHCNAetMtc48yoamCjog41VCXS4AzAk8SZvypE6"
+				"bzz-raw://21ab7f230c09697cb151290b88db67ad081bbaaa1b50a4e7035c00d2eca0fab9",
+				"dweb:/ipfs/QmTpPAwpGEmD9sPwQVfjsce6MDxi4ZNy7MsQr2YrgsQUFp"
 			]
 		}
 	},

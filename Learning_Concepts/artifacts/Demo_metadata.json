@@ -1,80 +1,64 @@
 {
 	"compiler": {
-		"version": "0.5.0+commit.1d4f565a"
+		"version": "0.8.7+commit.e28d00a7"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"constant": true,
-				"inputs": [],
-				"name": "b2",
-				"outputs": [
-					{
-						"name": "",
-						"type": "bytes2"
-					}
-				],
-				"payable": false,
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"constant": false,
-				"inputs": [],
-				"name": "setter",
-				"outputs": [],
-				"payable": false,
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"constant": true,
 				"inputs": [
 					{
-						"name": "index",
+						"internalType": "uint256",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "getter",
+				"name": "arr1",
 				"outputs": [
 					{
+						"internalType": "uint256",
 						"name": "",
-						"type": "bytes1"
+						"type": "uint256"
 					}
 				],
-				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"constant": true,
 				"inputs": [],
-				"name": "b3",
-				"outputs": [
-					{
-						"name": "",
-						"type": "bytes3"
-					}
-				],
-				"payable": false,
+				"name": "mem",
+				"outputs": [],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sto",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"Learning_Concepts/09_byte_array.sol": "Demo"
+			"Learning_Concepts/17_storage_and_memory.sol": "Demo"
 		},
-		"evmVersion": "byzantium",
+		"evmVersion": "london",
 		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
 		"optimizer": {
 			"enabled": false,
 			"runs": 200
@@ -82,10 +66,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Learning_Concepts/09_byte_array.sol": {
-			"keccak256": "0x2170521087d56336ffd1710965620a5c9436fed8822094a3a6859ed05cd8e39b",
+		"Learning_Concepts/17_storage_and_memory.sol": {
+			"keccak256": "0x5e144fd277ffdc08f6b25754c3d3cb9f312dc539953b3e98b05aeec69b9dd017",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzzr://5dea979b3a717cb8816dde801aaa796205317157807a50ca70ca860d6a042ca0"
+				"bzz-raw://45d5d64144a2b7c2825f72a987e69cbc27f389ca94228cd3c0330f7f9d1969df",
+				"dweb:/ipfs/QmXFHCFvoR1CCZecEjphoBnTN8VYYMuAW9JPqyTykacQvm"
 			]
 		}
 	},
