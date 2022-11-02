@@ -16,33 +16,40 @@ contract Lottery {
         manager = msg.sender;
     }
 
+    // Using modifier for not repeating our code
+    modifier only_manager() {
+        require(msg.sender == manager, "Only manager can do it");
+        
+        _;
+    }
+
     // Except manager
     function buy_lottery() payable public {
-        require(msg.sender != manager);
-        require(msg.value == 10 ether);
+        require(msg.sender != manager, "Manager can't do it.");
+        require(msg.value == 10 ether, "Please pay complete lottery price");
         participants.push(payable(msg.sender));
     }
 
     // Manager only
-    function show_balance() public view returns(uint){
-        require(msg.sender == manager);
+    function show_balance() public view only_manager returns(uint){
         return address(this).balance;
     }
 
     // Manager only
-    function random_number_generator() public view returns(uint) {
-        require(msg.sender == manager);
+    function random_number_generator() public view only_manager returns(uint) {
         return uint(keccak256(abi.encodePacked(block.timestamp, msg.sender, participants.length))) % participants.length;
     }
 
     // Manger only
-    function select_winner() public returns(address) {
-        require(msg.sender == manager);
-        require(participants.length >= 3);
+    function select_winner() public only_manager returns(address) {
+        require(participants.length >= 3, "No enough paticipants to start the lottery");
 
         winner = participants[random_number_generator()];
         payable(winner).transfer(show_balance() - 1 ether);
         payable(manager).transfer(1 ether);
+
+        address[] memory blank_array;
+        participants = blank_array;
         return winner;
     }
 }

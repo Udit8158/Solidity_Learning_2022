@@ -16,4 +16,6 @@ contract Conditional {
 
         return result;
     }
+
+    // You can use require statement as substitute
 }
